@@ -1,0 +1,15 @@
+{
+  "name": "fe-frame-project",
+  "version": "1.0.0",
+  "description": "mvvm 前端框架项目",
+  "keywords": ["frontend", "framework", "project"],
+  "main": "index.js",
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "workspaces": [
+    "packages/runtime"
+  ],
+  "author": "bill",
+  "license": "MIT"
+}
